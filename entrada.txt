@@ -1,0 +1,7 @@
+1 (p>(pvq)) A6 p=p;q=q
+2 ((p>(pvq))>((p>¬(pvq))>¬p)) A9 p=p;q=(pvq)
+3 ((p>¬(pvq))>¬p) MP 1,2
+4 (¬(pvq)>(q>¬(pvq))) A1 p=¬(pvq);q=q
+5 (q>(pvq)) A7 p=p;q=q
+6 ((q>(pvq))>((q>¬(pvq))>¬q)) A9 p=q;q=(pvq)
+7 ((q>¬(pvq))>¬q MP 5,6
